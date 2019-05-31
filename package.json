@@ -1,0 +1,28 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.3.1",
+    "graphql-server-koa": "^1.4.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest-node": "^1.0.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
